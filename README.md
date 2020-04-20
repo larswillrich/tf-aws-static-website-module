@@ -12,7 +12,7 @@ All you need is Terraform v0.12 and an AWS account.
 Here is an example how to use the module:  
 ```
 module "static-website" {
-  source              = "../../tf-aws-static-website-module"
+  source              = "github.com/larswillrich/tf-aws-static-website-module"
   domain              = "yourdomain.com"
   default_root_object = "index.html"
 }
